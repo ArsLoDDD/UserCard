@@ -1,0 +1,17 @@
+.card-wrapper {
+  width: 400px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+
+.profile-photo {
+
+  width: 120px;
+  height: 129px;
+padding: 3px;
+border: 1px solid rgb(240, 240, 240);
+border-radius: 50%;
+object-fit: cover;
+object-position: top center;
+}
