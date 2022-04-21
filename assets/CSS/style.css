@@ -5,14 +5,20 @@ body{
   font-family:  'Akshar', sans-serif;
 
 }
+.card-container{
+  margin-left: 150px;
 
+}
+.card-wrapper{
+  display: inline-block;
+}
 .card-wrapper {
   margin: auto;
   --img-size: 150px;
   --main-bg-color: #17A2B7;
   min-width: calc(var(--img-size)*2);
   width: 100%;
-  max-width: calc(var(--img-size)*3);
+  max-width: calc(var(--img-size)*2.85);
   border: 1px solid black;
   text-align: center;
 }
