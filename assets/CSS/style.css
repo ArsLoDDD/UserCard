@@ -1,24 +1,25 @@
-*{
+:root{
+  font-size: 16px;
+}
+* {
   box-sizing: border-box;
 }
-body{
-  font-family:  'Akshar', sans-serif;
-
+body {
+  font-family: "Akshar", sans-serif;
 }
-.card-container{
+.card-container {
   margin-left: 150px;
-
 }
-.card-wrapper{
+.card-wrapper {
   display: inline-block;
 }
 .card-wrapper {
   margin: auto;
   --img-size: 150px;
-  --main-bg-color: #17A2B7;
-  min-width: calc(var(--img-size)*2);
+  --main-bg-color: #17a2b7;
+  min-width: calc(var(--img-size) * 2);
   width: 100%;
-  max-width: calc(var(--img-size)*2.85);
+  max-width: calc(var(--img-size) * 2.85);
   border: 1px solid black;
   text-align: center;
 }
@@ -26,37 +27,42 @@ body{
 .profile-photo {
   width: var(--img-size);
   height: var(--img-size);
-padding: 3px;
-border: 1px solid rgb(240, 240, 240);
-border-radius: 50%;
-margin-top: calc(var(--img-size)*-0.5);
-object-fit: cover;
-object-position: top center;
-background-color:white
+  padding: 3px;
+  border: 1px solid rgb(240, 240, 240);
+  border-radius: 50%;
+  margin-top: calc(var(--img-size) * -0.5);
+  object-fit: cover;
+  object-position: top center;
+  background-color: white;
 }
 .bg-header {
-  height: calc(var(--img-size)*1.2);
+  height: calc(var(--img-size) * 1.2);
   background-color: var(--main-bg-color);
 }
-h2.name, .address-profile{
+h2.name,
+.address-profile {
   margin-top: 10px;
+  font-size: 1.4rem;
 }
-h2.name{
-  font-weight: bold ;
+h2.name {
+  font-weight: bold;
   margin-top: 20px;
 }
-button, .btn-container {
+button,
+.btn-container {
   text-transform: capitalize;
   padding: 6px 8px;
   margin: 10px 0;
+  color: white;
+}
+button {
+  border-radius: 5px;
 }
 .btn.message {
   background-color: var(--main-bg-color);
-  color: white;
 }
 .btn.follow {
-  background-color: #29A746;
-color:white
+  background-color: #29a746;
 }
 .descriprion-profile {
   max-width: 70%;
@@ -64,7 +70,7 @@ color:white
 }
 .card-footer {
   width: 100%;
-  height: calc(var(--img-size)/2.5);
+  height: calc(var(--img-size) / 2.5);
   background-color: var(--main-bg-color);
 }
 
