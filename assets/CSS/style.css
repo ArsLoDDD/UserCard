@@ -45,17 +45,33 @@ h2.name,
   font-size: 1.4rem;
 }
 h2.name {
-  font-weight: bold;
+  margin: 0 auto;
   margin-top: 20px;
+  font-weight: bold;
+
 }
 button,
-.btn-container {
+.btn-container { 
   text-transform: capitalize;
   padding: 6px 8px;
   margin: 10px 0;
   color: white;
 }
+.btn-name-message{
+  width: 110px;
+}
+.btn-name-follow{
+  width: 70px;
+}
+h2, .btn-name{
+  display: block;
+  max-width: 250px;
+  overflow:hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 button {
+  
   border-radius: 5px;
 }
 .btn.message {
